@@ -10,7 +10,7 @@
 
     #menu_bar{
         display: grid;
-        color: #fff;
+        color: #000000;
         position: absolute;
         right: 5%;
         top: 20%;
@@ -27,7 +27,7 @@
     .nav_links{
         flex-direction: column;
         position: absolute;
-        background: #24292D;
+        background: #ffffff;
         width: 100%;
         left: 0;
         top: -450px;
@@ -36,7 +36,7 @@
 
 
     .nav_links li a{
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #000000;
         display: block;
         border-radius: 0;
         padding: 10px 0;
