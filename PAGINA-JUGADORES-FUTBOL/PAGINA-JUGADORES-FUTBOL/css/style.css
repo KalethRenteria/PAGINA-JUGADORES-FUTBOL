@@ -25,7 +25,7 @@ img{
 
 section{
     padding: 100px 0px;
-    background: #ffffff;
+    background: #3a4044;
 
 }
 
@@ -37,7 +37,7 @@ section{
 .section_title h2{
     position: relative;
     text-align: center;
-    color: #000;
+    color: white;
     font-size: 30px;
 
 }
@@ -58,8 +58,7 @@ section{
 ===================================== */
 
 header{
-    background: #e9e9e9;
-    border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+    background: #cacaca;
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -110,7 +109,11 @@ header{
 
 
 #home{
-    background: #ffffff;
+    background: #24292D;
+}
+
+.texto-prueba {
+    font-weight: bold;
 }
 
 .inner_home{
@@ -133,7 +136,7 @@ header{
 }
 
 .highlight{
-    color: #000d70;
+    color: #fff34d;
 }
 
 .child_home p{
@@ -191,7 +194,8 @@ header{
 }
 
 .child_courses:hover{
-    border: 1px solid #24CAAC;
+    border: 2px solid #24CAAC;
+    border-radius: 12px;
 }
 
 .child_courses .course_img img{
@@ -244,4 +248,22 @@ header{
   
   .child_courses:hover .course_img img {
     transform: scale(1.2);
+  }
+
+  footer{
+    width: 100%;
+    height: 50px;
+    background-color: #c9c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .a-footer{
+    color: #000;
+    transition: 0.3s ease;
+  }
+  .a-footer:hover{
+    color: #000d70;
+    font-size: 30px;
   }
